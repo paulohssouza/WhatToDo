@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="@dimen/padding_default"
+    android:orientation="vertical"
+    tools:context=".TaskRegistrationActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="Cadastrar tarefa"
+        android:textStyle="bold"
+        android:textSize="@dimen/title1"
+        android:layout_marginBottom="@dimen/margin"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/heigth_default_edit_text"
+        android:id="@+id/txt_task"
+        android:hint="@string/hint_task_edit_text"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/heigth_default_edit_text"
+        android:id="@+id/txt_hour_task"
+        android:hint="@string/hint_hour"
+        android:inputType="time"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/heigth_default_edit_text"
+        android:id="@+id/txt_date_task"
+        android:hint="@string/hint_date"
+        android:inputType="date"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/margin"
+        android:id="@+id/btn_insert_task"
+        android:text="@string/btt_insert"/>
+
+</LinearLayout>

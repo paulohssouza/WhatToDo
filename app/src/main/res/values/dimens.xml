@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    //Dimensionamentos de layout
+    <dimen name="padding_default">16dp</dimen>
+    <dimen name="margin">20dp</dimen>
+    <dimen name="heigth_default_edit_text">48dp</dimen>
+
+    //Dimensionamentos de fonte
+    <dimen name="title1">24sp</dimen>
+</resources>

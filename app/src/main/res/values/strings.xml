@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">What To Do</string>
+    <string name="edit_text_hint_item">Item da lista</string>
+    <string name="btt_insert">Inserir</string>
+    <string name="hint_task_edit_text">Tarefa</string>
+    <string name="hint_hour">Horário</string>
+    <string name="hint_date">Data</string>
+</resources>
