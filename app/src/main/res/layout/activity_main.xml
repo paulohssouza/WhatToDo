@@ -13,6 +13,7 @@
 
     <com.google.android.material.floatingactionbutton.FloatingActionButton
         android:id="@+id/btn_add_list_product"
+        android:contentDescription="@string/description_add_list_product_fab"
         android:visibility="invisible"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -21,10 +22,11 @@
         android:backgroundTint="@color/red"
         app:layout_constraintBottom_toTopOf="@id/btn_add_list_task"
         app:layout_constraintEnd_toEndOf="@id/btn_add_list_task"
-        android:layout_marginBottom="@dimen/margin"/>/>
+        android:layout_marginBottom="@dimen/margin"/>
 
     <com.google.android.material.floatingactionbutton.FloatingActionButton
         android:id="@+id/btn_add_list_task"
+        android:contentDescription="@string/description_add_list_task_fab"
         android:visibility="invisible"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -37,6 +39,7 @@
 
     <com.google.android.material.floatingactionbutton.FloatingActionButton
         android:id="@+id/btn_add"
+        android:contentDescription="@string/description_add_fab"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:background="@color/red"
@@ -63,7 +66,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:padding="@dimen/padding_default"
-            android:text="Listas"
+            android:text="@string/title_home"
             android:textSize="@dimen/title1"
             android:textStyle="bold" />
 
@@ -71,7 +74,7 @@
         <ListView
             android:id="@+id/list_view_itens"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"></ListView>
+            android:layout_height="wrap_content" />
 
     </androidx.appcompat.widget.LinearLayoutCompat>
 
