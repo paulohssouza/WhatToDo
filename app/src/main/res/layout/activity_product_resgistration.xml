@@ -21,42 +21,36 @@
             android:layout_height="wrap_content"
             android:layout_gravity="center"
             android:layout_marginBottom="@dimen/margin"
-            android:text="@string/title_registration_task"
+            android:text="@string/title_registration_product"
             android:textSize="@dimen/title1"
             android:textStyle="bold" />
 
         <EditText
-            android:id="@+id/txt_task"
-            android:autofillHints="Tarefa"
+            android:id="@+id/txt_product"
             android:layout_width="match_parent"
-            android:maxWidth="@dimen/max_width_edit_text"
             android:layout_height="@dimen/heigth_default_edit_text"
-            android:inputType="text"
-            android:hint="@string/hint_task_edit_text" />
+            android:hint="@string/hint_product_edit_text" />
 
-        <EditText
-            android:id="@+id/txt_hour_task"
-            android:layout_width="match_parent"
-            android:maxWidth="@dimen/max_width_edit_text"
-            android:layout_height="@dimen/heigth_default_edit_text"
-            android:hint="@string/hint_hour"
-            android:autofillHints="Hora"
-            android:inputType="time" />
+      <LinearLayout
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content">
+          <EditText
+              android:id="@+id/txt_hour_task"
+              android:layout_width="0dp"
+              android:layout_weight="1"
+              android:layout_height="@dimen/heigth_default_edit_text"
+              android:hint="@string/hint_hour"
+              android:inputType="time" />
 
-        <EditText
-            android:id="@+id/txt_date_task"
-            android:layout_width="match_parent"
-            android:layout_height="@dimen/heigth_default_edit_text"
-            android:maxWidth="@dimen/max_width_edit_text"
-            android:hint="@string/hint_date"
-            android:autofillHints="Data"
-            android:inputType="date" />
+          <Spinner
+              android:layout_width="@dimen/width_spinner"
+              android:layout_height="@dimen/width_spinner"/>
+      </LinearLayout>
 
         <Button
             android:id="@+id/btn_insert_task"
-            android:layout_width="wrap_content"
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:maxWidth="@dimen/max_width_btn"
             android:layout_marginTop="@dimen/margin"
             android:text="@string/btt_insert" />
         <ListView
@@ -66,7 +60,7 @@
     </LinearLayout>
 
     <com.google.android.material.floatingactionbutton.FloatingActionButton
-        android:id="@+id/fab_save_task"
+        android:id="@+id/fab_save_product"
         android:contentDescription="@string/description_save_fab"
         android:src="@drawable/save_fab"
         android:background="@color/red"

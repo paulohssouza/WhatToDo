@@ -1,15 +1,17 @@
 package com.paulohenrique.whattodo
 
-import android.os.Bundle
 import androidx.appcompat.app.AppCompatActivity
+import android.os.Bundle
+import com.paulohenrique.whattodo.databinding.ActivityProductResgistrationBinding
 import com.paulohenrique.whattodo.databinding.ActivityTaskRegistrationBinding
 
-class TaskRegistrationActivity : AppCompatActivity() {
+class ProductResgistrationActivity : AppCompatActivity() {
 
-    lateinit var binding: ActivityTaskRegistrationBinding
+    lateinit var binding: ActivityProductResgistrationBinding
+
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        binding = ActivityTaskRegistrationBinding.inflate(layoutInflater)
+        binding = ActivityProductResgistrationBinding.inflate(layoutInflater)
         val view = binding.root
         setContentView(view)
     }

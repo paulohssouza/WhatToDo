@@ -5,8 +5,13 @@
     <string name="hint_task_edit_text">Tarefa</string>
     <string name="hint_hour">Horário</string>
     <string name="hint_date">Data</string>
+    <string name="hint_product_edit_text">Produto</string>
+    <string name="hint_product_quantity">Quantidade</string>
     <string name="description_add_fab">Add</string>
     <string name="description_add_list_task_fab">Add task list</string>
     <string name="description_add_list_product_fab">Add product list</string>
+    <string name="description_save_fab">Save</string>
     <string name="title_home">Listas</string>
+    <string name="title_registration_task">Cadastrar tarefa</string>
+    <string name="title_registration_product">Cadastrar produto</string>
 </resources>

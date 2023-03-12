@@ -4,6 +4,9 @@
     <dimen name="padding_default">16dp</dimen>
     <dimen name="margin">20dp</dimen>
     <dimen name="heigth_default_edit_text">48dp</dimen>
+    <dimen name="max_width_edit_text">480dp</dimen>
+    <dimen name="max_width_btn">320dp</dimen>
+    <dimen name="width_spinner">48dp</dimen>
 
     //Dimensionamentos de fonte
     <dimen name="title1">24sp</dimen>
