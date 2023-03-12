@@ -19,23 +19,23 @@ class MainActivity : AppCompatActivity() {
         val itemAdapter = ArrayAdapter<String>(this, android.R.layout.simple_list_item_1)
         binding.listViewItens.adapter = itemAdapter
 
-        binding.btnInsert.setOnClickListener {
-            val item = binding.txtItemList.text.toString()
-            if (item.isNotEmpty()) {
-                itemAdapter.add(item)
-                binding.txtItemList.text.clear()
-            } else {
-                binding.txtItemList.error = "Preencha o campo de item da lista!"
-            }
-        }
-
-        binding.listViewItens.setOnItemLongClickListener {
-            adapterView: AdapterView<*>, view: View, position: Int, id: Long ->
-
-            val item = itemAdapter.getItem(position)
-            itemAdapter.remove(item)
-
-            true
-        }
+//        binding.btnInsert.setOnClickListener {
+//            val item = binding.txtItemList.text.toString()
+//            if (item.isNotEmpty()) {
+//                itemAdapter.add(item)
+//                binding.txtItemList.text.clear()
+//            } else {
+//                binding.txtItemList.error = "Preencha o campo de item da lista!"
+//            }
+//        }
+//
+//        binding.listViewItens.setOnItemLongClickListener {
+//            adapterView: AdapterView<*>, view: View, position: Int, id: Long ->
+//
+//            val item = itemAdapter.getItem(position)
+//            itemAdapter.remove(item)
+//
+//            true
+//        }
     }
 }
