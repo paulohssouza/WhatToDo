@@ -10,6 +10,7 @@
     <string name="description_add_fab">Add</string>
     <string name="description_add_list_task_fab">Add task list</string>
     <string name="description_add_list_product_fab">Add product list</string>
+    <string name="description_spinner_unity">Unity of measure</string>
     <string name="description_save_fab">Save</string>
     <string name="title_home">Listas</string>
     <string name="title_registration_task">Cadastrar tarefa</string>
