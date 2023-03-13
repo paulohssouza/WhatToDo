@@ -38,7 +38,7 @@
           <EditText
               android:id="@+id/txt_hour_task"
               android:layout_width="0dp"
-              android:layout_weight="70"
+              android:layout_weight="80"
               android:layout_height="@dimen/heigth_default_edit_text"
               android:hint="@string/hint_product_quantity"
               android:inputType="numberDecimal" />
@@ -46,7 +46,7 @@
           <Spinner
               android:layout_width="@dimen/width_spinner"
               android:layout_height="@dimen/width_spinner"
-              android:layout_weight="30"
+              android:layout_weight="20"
               android:contentDescription="@string/description_spinner_unity"/>
       </LinearLayout>
 

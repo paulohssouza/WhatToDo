@@ -7,6 +7,7 @@
     <dimen name="max_width_edit_text">480dp</dimen>
     <dimen name="max_width_btn">320dp</dimen>
     <dimen name="width_spinner">48dp</dimen>
+    <dimen name="font_size_default">18sp</dimen>
 
     //Dimensionamentos de fonte
     <dimen name="title1">24sp</dimen>
