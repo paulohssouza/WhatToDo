@@ -16,7 +16,7 @@ class TaskRegistrationActivity : AppCompatActivity() {
         binding = ActivityTaskRegistrationBinding.inflate(layoutInflater)
         val view = binding.root
         setContentView(view)
-
+        globalTask.clear()
         binding.txtDateTask.addTextChangedListener(MaskedWatcher(formatterDate, binding.txtDateTask))
         binding.txtHourTask.addTextChangedListener(MaskedWatcher(formatterHour, binding.txtHourTask))
 
