@@ -7,7 +7,7 @@ import android.view.ViewGroup
 import android.widget.ArrayAdapter
 import android.widget.TextView
 
-class TaskAdapter (context: Context) : ArrayAdapter<Product>(context, 0) {
+class TaskAdapter (context: Context) : ArrayAdapter<Task>(context, 0) {
     override fun getView(position: Int, convertView: View?, parent: ViewGroup): View {
         val view: View = convertView
             ?: LayoutInflater.from(context)
@@ -19,8 +19,8 @@ class TaskAdapter (context: Context) : ArrayAdapter<Product>(context, 0) {
 
         if (item != null) {
             txt_name_task.text = item.name
-            txt_date_task.text = item.quantity.toString()
-            txt_hour_task.text = item.unity
+            txt_date_task.text = item.date
+            txt_hour_task.text = item.time
         }
         return view
     }
