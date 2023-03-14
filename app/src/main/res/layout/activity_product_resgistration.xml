@@ -36,7 +36,7 @@
           android:layout_width="match_parent"
           android:layout_height="wrap_content">
           <EditText
-              android:id="@+id/txt_hour_task"
+              android:id="@+id/txt_quantity_product"
               android:layout_width="0dp"
               android:layout_weight="80"
               android:layout_height="@dimen/heigth_default_edit_text"
@@ -44,6 +44,7 @@
               android:inputType="numberDecimal" />
 
           <Spinner
+              android:id="@+id/txt_unit_product"
               android:layout_width="@dimen/width_spinner"
               android:layout_height="@dimen/width_spinner"
               android:layout_weight="20"
@@ -51,7 +52,7 @@
       </LinearLayout>
 
         <Button
-            android:id="@+id/btn_insert_task"
+            android:id="@+id/btn_insert_product"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="@dimen/margin"
@@ -59,7 +60,7 @@
         <ListView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:id="@+id/list_view_tasks"/>
+            android:id="@+id/list_view_product"/>
     </LinearLayout>
 
     <com.google.android.material.floatingactionbutton.FloatingActionButton
