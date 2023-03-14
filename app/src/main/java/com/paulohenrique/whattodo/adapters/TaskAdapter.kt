@@ -1,4 +1,4 @@
-package com.paulohenrique.whattodo
+package com.paulohenrique.whattodo.adapters
 
 import android.content.Context
 import android.view.LayoutInflater
@@ -6,6 +6,8 @@ import android.view.View
 import android.view.ViewGroup
 import android.widget.ArrayAdapter
 import android.widget.TextView
+import com.paulohenrique.whattodo.R
+import com.paulohenrique.whattodo.data.Task
 
 class TaskAdapter (context: Context) : ArrayAdapter<Task>(context, 0) {
     override fun getView(position: Int, convertView: View?, parent: ViewGroup): View {

@@ -3,8 +3,9 @@ package com.paulohenrique.whattodo
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.widget.ArrayAdapter
+import com.paulohenrique.whattodo.adapters.ProductAdapter
+import com.paulohenrique.whattodo.data.Product
 import com.paulohenrique.whattodo.databinding.ActivityProductResgistrationBinding
-import com.paulohenrique.whattodo.databinding.ActivityTaskRegistrationBinding
 
 class ProductResgistrationActivity : AppCompatActivity() {
 

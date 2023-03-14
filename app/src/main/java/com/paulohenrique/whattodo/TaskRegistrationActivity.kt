@@ -2,6 +2,8 @@ package com.paulohenrique.whattodo
 
 import android.os.Bundle
 import androidx.appcompat.app.AppCompatActivity
+import com.paulohenrique.whattodo.adapters.TaskAdapter
+import com.paulohenrique.whattodo.data.Task
 import com.paulohenrique.whattodo.databinding.ActivityTaskRegistrationBinding
 import com.vicmikhailau.maskededittext.MaskedFormatter
 import com.vicmikhailau.maskededittext.MaskedWatcher
