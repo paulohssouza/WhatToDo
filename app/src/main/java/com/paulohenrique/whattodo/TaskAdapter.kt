@@ -14,8 +14,8 @@ class TaskAdapter (context: Context) : ArrayAdapter<Task>(context, 0) {
                 .inflate(R.layout.list_view_task, parent, false)
         val item = getItem(position)
         val txt_name_task = view.findViewById<TextView>(R.id.txt_item_task)
-        val txt_date_task = view.findViewById<TextView>(R.id.txt_date_task)
-        val txt_hour_task = view.findViewById<TextView>(R.id.txt_hour_task)
+        val txt_date_task = view.findViewById<TextView>(R.id.txt_item_date_task)
+        val txt_hour_task = view.findViewById<TextView>(R.id.txt_item_time_task)
 
         if (item != null) {
             txt_name_task.text = item.name

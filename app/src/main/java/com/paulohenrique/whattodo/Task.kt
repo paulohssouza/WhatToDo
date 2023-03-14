@@ -1,3 +1,3 @@
 package com.paulohenrique.whattodo
 
-data class Task(val name: String, val date: String? = null, val time: String? = null)
+data class Task(val name: String, val date: String? = "", val time: String? = "")
