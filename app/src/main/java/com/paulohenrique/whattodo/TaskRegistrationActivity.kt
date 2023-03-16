@@ -19,6 +19,9 @@ class TaskRegistrationActivity : AppCompatActivity() {
         val view = binding.root
         setContentView(view)
         globalTask.clear()
+        val data = intent.extras
+        val title = data?.getString("title")
+        binding.txtTitleListTask.text = title
         binding.txtDateTask.addTextChangedListener(MaskedWatcher(formatterDate, binding.txtDateTask))
         binding.txtHourTask.addTextChangedListener(MaskedWatcher(formatterHour, binding.txtHourTask))
 

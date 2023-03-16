@@ -19,6 +19,9 @@ class ProductResgistrationActivity : AppCompatActivity() {
         binding.txtUnitProduct.adapter = ArrayAdapter<String>(this, android.R.layout.simple_spinner_dropdown_item,
         listOf("Kg", "g", "L", "ml", "unidade", "pct"))
         globalProduct.clear()
+        val dados = intent.extras
+        val title = dados?.getString("title")
+        binding.txtTitleListProduct.text = title
 
         binding.btnInsertProduct.setOnClickListener {
             val product = binding.txtProduct.text.toString()
